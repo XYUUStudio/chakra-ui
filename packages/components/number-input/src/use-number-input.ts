@@ -562,6 +562,7 @@ export function useNumberInput(props: UseNumberInputProps = {}) {
   return {
     value: format(counter.value),
     valueAsNumber: counter.valueAsNumber,
+    update: counter.update,
     isFocused,
     isDisabled,
     isReadOnly,
